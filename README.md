@@ -60,6 +60,95 @@ The devices described below are available in the library:
 
 - [Q_EPC2036](https://epc-co.com/epc/products/gan-fets-and-ics/epc2036), added 03.10.22
 
+- [Q_EPC2037](https://epc-co.com/epc/products/gan-fets-and-ics/epc2037), added 03.10.22
+
+- [Q_EPC2038](https://epc-co.com/epc/products/gan-fets-and-ics/epc2038), added 03.10.22
+
+- [Q_EPC2040](https://epc-co.com/epc/products/gan-fets-and-ics/epc2040), added 03.10.22
+
+- [Q_EPC2045](https://epc-co.com/epc/products/gan-fets-and-ics/epc2045), added 03.10.22
+
+- [Q_EPC2050](https://epc-co.com/epc/products/gan-fets-and-ics/epc2050), added 03.10.22
+
+- [Q_EPC2051](https://epc-co.com/epc/products/gan-fets-and-ics/epc2051), added 03.10.22
+
+- [Q_EPC2052](https://epc-co.com/epc/products/gan-fets-and-ics/epc2052), added 03.10.22
+
+- [Q_EPC2053](https://epc-co.com/epc/products/gan-fets-and-ics/epc2053), added 03.10.22
+
+- [Q_EPC2054](https://epc-co.com/epc/products/gan-fets-and-ics/epc2054), added 03.10.22
+
+- [Q_EPC2055](https://epc-co.com/epc/products/gan-fets-and-ics/epc2055), added 03.10.22
+
+- [Q_EPC2059](https://epc-co.com/epc/products/gan-fets-and-ics/epc2059), added 03.10.22
+
+- [Q_EPC2065](https://epc-co.com/epc/products/gan-fets-and-ics/epc2065), added 03.10.22
+
+- [Q_EPC2066](https://epc-co.com/epc/products/gan-fets-and-ics/epc2066), added 03.10.22
+
+- [Q_EPC2067](https://epc-co.com/epc/products/gan-fets-and-ics/epc2067), added 03.10.22
+
+- [Q_EPC2069](https://epc-co.com/epc/products/gan-fets-and-ics/epc2069), added 03.10.22
+
+- [Q_EPC2070](https://epc-co.com/epc/products/gan-fets-and-ics/epc2070), added 03.10.22
+
+- [Q_EPC2071](https://epc-co.com/epc/products/gan-fets-and-ics/epc2071), added 03.10.22
+
+- [Q_EPC2100Q1/Q_EPC2100Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2100), added 03.10.22
+
+- [Q_EPC2101Q1/Q_EPC2101Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2101), added 03.10.22
+
+- [Q_EPC2102Q1/Q_EPC2102Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2102), added 03.10.22
+
+- [Q_EPC2103Q1/Q_EPC2103Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2103), added 03.10.22
+
+- [Q_EPC2104Q1/Q_EPC2104Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2104), added 03.10.22
+
+- [Q_EPC2105Q1/Q_EPC2105Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2105), added 03.10.22
+
+- [Q_EPC2106Q1/Q_EPC2106Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2106), added 03.10.22
+
+- [Q_EPC2107Q1/Q_EPC2107Q7](https://epc-co.com/epc/products/gan-fets-and-ics/epc2107), added 03.10.22
+
+- [Q_EPC2108Q1/Q_EPC2108Q2/Q_EPC2108Q3](https://epc-co.com/epc/products/gan-fets-and-ics/epc2108), added 03.10.22
+
+- [Q_EPC2110Q1/Q_EPC2110Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2110), added 03.10.22
+
+- [Q_EPC2111Q1/Q_EPC2111Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2111), added 03.10.22
+
+- [Q_EPC2202](https://epc-co.com/epc/products/gan-fets-and-ics/epc2202), added 03.10.22
+
+- [Q_EPC2203](https://epc-co.com/epc/products/gan-fets-and-ics/epc2203), added 03.10.22
+
+- [Q_EPC2204](https://epc-co.com/epc/products/gan-fets-and-ics/epc2204), added 03.10.22
+
+- [Q_EPC2206](https://epc-co.com/epc/products/gan-fets-and-ics/epc2206), added 03.10.22
+
+- [Q_EPC2207](https://epc-co.com/epc/products/gan-fets-and-ics/epc2207), added 03.10.22
+
+- [Q_EPC2212](https://epc-co.com/epc/products/gan-fets-and-ics/epc2212), added 03.10.22
+
+- [Q_EPC2214](https://epc-co.com/epc/products/gan-fets-and-ics/epc2214), added 03.10.22
+
+- [Q_EPC2215](https://epc-co.com/epc/products/gan-fets-and-ics/epc2215), added 03.10.22
+
+- [Q_EPC2216](https://epc-co.com/epc/products/gan-fets-and-ics/epc2216), added 03.10.22
+
+- [Q_EPC2218](https://epc-co.com/epc/products/gan-fets-and-ics/epc2218), added 03.10.22
+
+- [Q_EPC2221Q1/Q_EPC2221Q2](https://epc-co.com/epc/products/gan-fets-and-ics/epc2221), added 03.10.22
+
+- [Q_EPC2302](https://epc-co.com/epc/products/gan-fets-and-ics/epc2302), added 03.10.22
+
+- [Q_EPC7014](https://epc-co.com/epc/products/gan-fets-and-ics/epc7014), added 03.10.22
+
+- [Q_EPC8002](https://epc-co.com/epc/products/gan-fets-and-ics/epc8002), added 03.10.22
+
+- [Q_EPC8004](https://epc-co.com/epc/products/gan-fets-and-ics/epc8004), added 03.10.22
+
+- [Q_EPC8009](https://epc-co.com/epc/products/gan-fets-and-ics/epc8009), added 03.10.22
+
+- [Q_EPC8010](https://epc-co.com/epc/products/gan-fets-and-ics/epc8010), added 03.10.22
 
 ## Setup
 
