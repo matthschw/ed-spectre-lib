@@ -1,0 +1,62 @@
+//* (C) Copyright Efficient Power Conversion Corporation. All rights reserved.
+//*****************************************************************************
+//* Version History:
+//* 1.00: 10/18/2021 - Initial Model Creation
+
+simulator lang=spectre
+
+subckt EPC2067 (gatein drainin sourcein)
+parameters  si=1.775e+00 so=8.463e+00 sr=2.730e+03
+parameters  aWg=2730 A1=(2.672e-02*aWg) k2=2.115e+00 k3=9.000e-02 rpara=8.300e-04
++	rpara_s_factor=3.251e-01 aITc=3.000e-03 arTc=-6.860e-03 k2Tc=8.000e-04
++	x0_0=4.444e+00 x0_0_TC=-1.000e-03 x0_1=-3.190e-01 x0_1_TC=0.000e+00
++	dgs1=4.3e-07 dgs2=2.6e-13 dgs3=0.8 dgs4=0.23
++	ags1=(1.214e-09*si) ags2=(4.750e-10*si) ags3=1.565e+00 ags4=2.713e-01
++	ags5=(5.635e-14*si) ags6=1.000e+00 ags7=1.000e+00
++	agd1=(3.701e-15*sr) agd2=(1.130e-13*sr) agd3=-3.024e+00 agd4=4.061e+00
++	agd5=(7.370e-15*sr) agd6=-1.188e+01 agd7=3.001e+01 agd8=(1.000e-14*sr)
++	agd9=-1.000e+01 agd10=1.026e+00
++	asd1=(9.612e-11*so) asd2=(6.998e-11*so) asd3=-1.461e+01 asd4=1.182e+00
++	asd5=(3.083e-11*so) asd6=-1.012e+01 asd7=1.517e+00 asd8=(8.518e-11*so)
++	asd9=-1.124e+01 asd10=1.132e+01
++	rg_value=0.3
+
+rd (drainin drain) resistor r=((1-rpara_s_factor)*rpara*(1-arTc*(temp-25)))
+rs (sourcein source) resistor r=(rpara_s_factor*rpara*(1-arTc*(temp-25)))
+rg (gatein gate) resistor r=(rg_value)
+
+rcsdconv (drain source) resistor r=(1E9/aWg)
+rcgsconv (gate source) resistor r=(1E9/aWg)
+rcgdconv (gate drain) resistor r=(1E9/aWg)
+
+gswitch drain source bsource i=( (v(drain,source)>0) ? 
++	(A1*(1-aITc*(temp-25))*log(1.0+exp((v(gate,source)-(k2*(1-k2Tc*(temp-25))))/k3))* 
++	v(drain,source)/(1 + (x0_0*(1-x0_0_TC*(temp-25))+x0_1*(1-x0_1_TC*(temp-25))*v(gate,source))*v(drain,source))) :
++	(-A1*(1-aITc*(temp-25))*log(1.0+exp((v(gate,drain)-(k2*(1-k2Tc*(temp-25))))/k3))* 
++	v(source,drain)/(1 + (x0_0*(1-x0_0_TC*(temp-25))+x0_1*(1-x0_1_TC*(temp-25))*v(gate,drain))*v(source,drain))) )
+
+ggsdiode gate source bsource i=( (v(gate,source)>10) ? 
++	(0.125*aWg/1077*(dgs1*(exp((10.0)/dgs3)-1)+dgs2*(exp((10.0)/dgs4)-1))) : 
++	(0.125*aWg/1077*(dgs1*(exp((v(gate,source))/dgs3)-1)+dgs2*(exp((v(gate,source))/dgs4)-1))) )
+
+ggddiode gate drain bsource i=( (v(gate,drain)>10) ? 
++	(0.125*aWg/1077*(dgs1*(exp((10.0)/dgs3)-1)+dgs2*(exp((10.0)/dgs4)-1))) : 
++	(0.125*aWg/1077*(dgs1*(exp((v(gate,drain))/dgs3)-1)+dgs2*(exp((v(gate,drain))/dgs4)-1))) )
+
+
+C_GS  (gate source) bsource c=(ags1)  
+G_CGS1 (gate source) bsource q=(0.5*ags2*ags4*log(1+exp((v(gate,source)-ags3)/ags4))+
++	ags5*ags7*log(1+exp((v(source,drain)-ags6)/ags7)) )
+
+C_GD  (gate drain) bsource c=(agd1)  
+G_CGD1 (gate drain) bsource q=(0.5*ags2*ags4*log(1+exp((v(gate,drain)-ags3)/ags4))+
++	agd2*agd4*log(1+exp((v(gate,drain)-agd3)/agd4))+
++	agd5*agd7*log(1+exp((v(gate,drain)-agd6)/agd7))+
++	agd8*agd10*log(1+exp((v(gate,drain)-agd9)/agd10)) )
+
+C_SD  (source drain) bsource c=(asd1) 
+G_CSD1 (source drain) bsource q=(asd2*asd4*log(1+exp((v(source,drain)-asd3)/asd4))+
++	asd5*asd7*log(1+exp((v(source,drain)-asd6)/asd7))+ 
++	asd8*asd10*log(1+exp((v(source,drain)-asd9)/asd10)) )
+
+ends EPC2067

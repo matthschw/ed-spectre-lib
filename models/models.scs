@@ -1,0 +1,4 @@
+//  ED_SPECTRE_LIB model bindings for Cadence Spectre
+
+include "U_EPC2040.scs"
+pspice_include "U_OPAx333.LIB"
