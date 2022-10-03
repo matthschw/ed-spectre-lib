@@ -4,6 +4,10 @@ This repository contains the Cadence Virtuoso library *ED_SPECTRE_LIB*.
 This library contains several devices (transistors, opamps, etc.).
 You can instantiate them in your schematic and simulate them in the
 Analog Design Environment (ADE).
+This repository contains some models of the
+[Electronics & Drives LTspice Circuit Simulation Model Library](https://gitlab-forschung.reutlingen-university.de/electronics-and-drives/ed_ltspice_lib
+).
+
 
 We do not hold the rights of the models that are shipped with this 
 repository.
