@@ -5,8 +5,12 @@ This library contains several devices (transistors, opamps, etc.).
 You can instantiate them in your schematic and simulate them in the
 Analog Design Environment (ADE).
 
-The license holders of the models that are shipped with this repository
+We do not hold the rights of the models that are shipped with this 
+repository.
+The rights holders of the models that are shipped with this repository
 are annotated in the corresponding model files.
+The models are downloaded from the company's websites (links provided in
+section Devices).
 
 ## Devices
 
