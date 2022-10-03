@@ -71,3 +71,4 @@ include "Q_EPC8010.scs"
 include "Q_EPC2040.scs"
 
 pspice_include "U_OPAx333.LIB"
+include "U_OPA847.LIB"

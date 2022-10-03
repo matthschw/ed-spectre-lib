@@ -46,7 +46,6 @@
     (templateCell "TEMPLATE_GAN")
     cellId
     cdfId
-    /*
     (oppoints
       (list
         (list "rg" "rg" "res")
@@ -70,7 +69,6 @@
         (list "source" "source")
       );list
     )
-    */
   )
 
   (foreach (cellName modelName) cellNames modelNames

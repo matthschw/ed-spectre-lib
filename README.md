@@ -12,9 +12,11 @@ are annotated in the corresponding model files.
 
 The devices described below are available in the library:
 
-- [U_OPAx333](https://www.ti.com/product/OPA333#design-tools-simulation), added 30.09.22
+- [U_OPAx333](https://www.ti.com/product/OPA333), added 30.09.22
 
   Changed T_ABS=-273.15 to -273.149999999, because T=0K leads to errors
+
+- [U_OPA847](https://www.ti.com/product/OPA847), added 03.10.22
   
 - [Q_EPC2001C](https://epc-co.com/epc/products/gan-fets-and-ics/epc2001c), added 03.10.22
 
