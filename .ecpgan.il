@@ -43,7 +43,8 @@
     dest
     destList
     (libName "ED_SPECTRE_LIB")
-    (templateCell "TEMPLATE_GAN")
+    (templateLib "CELL_TEMPLATES")
+    (templateCell "EPC")
     cellId
     cdfId
     (oppoints
@@ -74,7 +75,7 @@
   (foreach (cellName modelName) cellNames modelNames
 
     (setq srcList (gdmCreateSpecList))
-    (setq src (gdmCreateSpec libName templateCell "" "" "CDBA" 0))
+    (setq src (gdmCreateSpec templateLib templateCell "" "" "CDBA" 0))
     (gdmAddSpecToSpecList src srcList)
 
     (setq destList (gdmCreateSpecList))

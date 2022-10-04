@@ -72,3 +72,10 @@ include "Q_EPC2040.scs"
 
 pspice_include "U_OPAx333.LIB"
 include "U_OPA847.LIB"
+
+include "Q_PTM032.lib"
+include "Q_PTM045.lib"
+include "Q_PTM065.lib"
+include "Q_PTM090.lib"
+include "Q_PTM130.lib"
+

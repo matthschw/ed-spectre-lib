@@ -160,6 +160,25 @@ The devices described below are available in the library:
 
 - [Q_EPC8010](https://epc-co.com/epc/products/gan-fets-and-ics/epc8010), added 03.10.22
 
+- [Q_PTM130_NCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM130_PCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM090_NCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM090_PCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM065_NCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM065_PCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM045_NCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM045_PCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM032_NCH](http://ptm.asu.edu), added 04.10.22
+
+- [Q_PTM032_PCH](http://ptm.asu.edu), added 04.10.22
 ## Setup
 
 Please follow the steps described in this subsection to register this library
