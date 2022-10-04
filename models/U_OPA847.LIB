@@ -45,6 +45,10 @@
 *                                   | |  |    |   |    |
 *                                   | |  |    |   |    |
 *                                   | |  |    |   |    |
+
+* added for compatibility (matthschw @ 04.10.22)
+simulator lang=espice
+
 .SUBCKT OPA847_Model + - Dis Out V+ V- 
 
 .PARAM x1 = 0.25
