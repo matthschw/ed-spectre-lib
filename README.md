@@ -179,6 +179,11 @@ The devices described below are available in the library:
 - [Q_PTM032_NCH](http://ptm.asu.edu), added 04.10.22
 
 - [Q_PTM032_PCH](http://ptm.asu.edu), added 04.10.22
+
+- Q_Si2343DS, added 04.10.22
+
+- Q_Si2343DS], added 04.10.22
+
 ## Setup
 
 Please follow the steps described in this subsection to register this library

@@ -79,3 +79,5 @@ include "Q_PTM065.lib"
 include "Q_PTM090.lib"
 include "Q_PTM130.lib"
 
+include "Q_Si2304DS.lib"
+include "Q_Si2343DS.lib"
